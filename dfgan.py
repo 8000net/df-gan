@@ -186,5 +186,5 @@ if __name__ == "__main__":
         train(BATCH_SIZE=args.batch_size, args.loadweights)
     elif args.mode == "generate":
         generate(BATCH_SIZE=args.batch_size)
-    elif args.mode == "evaluate"
+    elif args.mode == "evaluate":
         evaluate()
